@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #071422;
+}
+
+body {
+    background-color: #1B2A41;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 30px;
+    letter-spacing: 10px;
+    font-weight: 500;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: black;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6C63FF;
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.menu_nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.menu_title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iten_menu {
+    color: #D7DEDC;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.iten_menu:hover {
+    color: #6C63FF;
+}
+
+
+
+.name {
+    color: #CCC9DC;
+    font-family: 'Bungee Shade', cursive;
+
+}
+
+.button {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #071422;
+    border-radius: 50px;
+    background-color: #071422;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #D7DEDC;
+    color: #071422;
+}
+
+footer {
+    display: grid;
+    color: #D7DEDC;
+    text-align: center;
+    height: 100px;
+    margin: 30px;
+}
+
+.icon_footer {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
