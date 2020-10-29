@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #071422;
-}
-
 body {
     background-color: #1B2A41;
 }
@@ -23,6 +19,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: space-between;
+    background-color: #071422;
+    opacity: 0.6;
 }
 
 .content{
@@ -38,7 +36,8 @@ h1 {
     justify-content: center;
     color: #6C63FF;
     font-size: 30px;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .menu_nav {
@@ -47,9 +46,14 @@ h1 {
     padding: 30px;
 }
 
+.text {
+    padding: 40px;
+}
+
 .menu_title {
     display: flex;
     justify-content: space-around;
+    padding: 40px;
 }
 
 .iten_menu {
@@ -73,7 +77,8 @@ h1 {
 
 .name {
     color: #CCC9DC;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 
 }
 
